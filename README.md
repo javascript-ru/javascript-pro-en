@@ -1,8 +1,7 @@
 
 
 
-# javascript-pro
-Advanced JavaScript Master-class
+# Advanced JavaScript Master-class
 
 
 
