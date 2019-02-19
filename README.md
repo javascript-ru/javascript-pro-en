@@ -8,8 +8,12 @@
 # Agenda
 
 
-- Babel, moden development tools
-  - repl
+- moden development tools
+  - Babel, repl
+  - Chrome Dev Tools
+  - Webpack
+  - Schematics
+  - linters
 
 - modern classes, properties
   - Classes to create objects
@@ -24,41 +28,27 @@
   - super must be first
   - inheritance for static properties
   - how to call static method from normal
-  
-- modules, import
-
-  - What are modules made for?
-    - Maintainability
-    - Namespacing
-    - Reusability
-
-  - Old SChool: Module pattern, CommonJS, AMD and UMD
-  - import / export, export default
-    - Export class
-    - Default export
-    - Aliases (as syntax)
-    - Export *
 
 
 - async/await 
 
   - Promise
     - Promise.finally
-  - async/await
+  - async/await (also in class)
   - Fetch   (+abortcontroller)
 
 - iteration
 
-  - String, Array, Map, Set
-  - arguments
-  - DOM Collection
   - Symbol.iterator
-  - difference between for...of and for...in
+  - spread operator `...`
 
 - Async Iterators
 
-  - generators
-  - Async iterators
+    - generators
+    - generator-composition 
+    - generators-iterators
+    - yield + Promises => co library
+    - Async iterators
 
 - Memory managements: WeakMap, WeakSet
 
@@ -66,3 +56,7 @@
   - append/prepend/…
 
 - service workers + Notification api
+
+- Event loop
+- Architecture scale
+- V8 and JS low level optimisations
